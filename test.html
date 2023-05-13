@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cards de Pokémon</title>
+    <style>
+        .card {
+            width: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .card-description {
+            height: 100px;
+            /* Defina a altura fixa desejada */
+            overflow-y: auto;
+            /* Habilita a rolagem vertical quando necessário */
+        }
+    </style>
+    <script>
+        function criarCard(nome, imagemUrl, tipos, descricao) {
+            var card = document.createElement("div");
+            card.className = "card";
+
+            var nomeElement = document.createElement("h2");
+            nomeElement.textContent = nome;
+
+            var imagem = document.createElement("img");
+            imagem.src = imagemUrl;
+
+            card.appendChild(nomeElement);
+            card.appendChild(imagem);
+
+            for (var i = 0; i < tipos.length; i++) {
+                var tipoElement = document.createElement("p");
+                tipoElement.textContent = "Tipo: " + tipos[i];
+                card.appendChild(tipoElement);
+            }
+
+            var descricaoElement = document.createElement("div"); // Use uma div em vez de um parágrafo para envolver a descrição
+            descricaoElement.className = "card-description";
+            descricaoElement.textContent = descricao;
+            card.appendChild(descricaoElement);
+
+            return card;
+        }
+
+        function exibirCards() {
+            var container = document.getElementById("container");
+
+            var pikachuCard = criarCard("Pikachu", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png", ["Elétrico"], "Pikachu é um Pokémon roedor que gera eletricidade para armazenar em suas bochechas.");
+            container.appendChild(pikachuCard);
+
+            var charizardCard = criarCard("Charizard", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png", ["Fogo", "Voador"], "Charizard é um Pokémon do tipo Fogo/Voador. Ele cospe fogo quente capaz de derreter qualquer coisa.");
+            container.appendChild(charizardCard);
+
+            var blastoiseCard = criarCard("Blastoise", "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png", ["Água"], "Blastoise é um Pokémon do tipo Água. Ele tem jatos de água extremamente poderosos que podem perfurar aço.");
+            container.appendChild(blastoiseCard);
+        }
+    </script>
+</head>
+
+<body onload="exibirCards()">
+    <h1>Cards de Pokémon</h1>
+    <div id="container"></div>
+</body>
+
+</html>

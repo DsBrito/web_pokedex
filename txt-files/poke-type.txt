@@ -1,0 +1,154 @@
+Normal ~ Normal
+Fighting ~ Lutador
+Flying ~ Voador
+Poison ~ Veneno
+Ground ~ Terrestre
+Rock ~ Pedra
+Bug ~ Inseto
+Ghost ~ Fantasma
+Steel ~ Metal
+Fire ~ Fogo
+Water ~ Água
+Grass ~ Grama
+Electric ~ Eletrico
+Psychic ~ Psiquico
+Ice ~ Gelo
+Dragon ~ Dragão
+Dark ~ Noturno
+
+
+Tipo Normal:
+
+Fraquezas: Fight
+Resistências: Ghost
+Dano Normal: Normal, Fire, Water, Eletric, Grass, Ice, Poison, Ground, Flying, Psychic, Bug, Rock, Dragon, Dark, Steel
+
+
+Tipo Fire:
+
+Fraquezas: Water, Ground, Rock
+Resistências: Fire, Grass, Ice, Bug, Steel
+Dano Normal: Normal, Eletric, Fight, Poison, Flying, Psychic, Ghost, Dragon, Dark
+
+
+Tipo Water:
+
+Fraquezas: Eletric, Grass
+Resistências: Fire, Water, Ice, Steel
+Dano Normal: Normal, Fight, Poison, Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark
+
+
+Tipo Eletric:
+
+Fraquezas: Ground
+Resistências: Eletric, Flying, Steel
+Dano Normal: Normal, Fire, Water, Grass, Ice, Fight, Poison, Psychic, Bug, Rock, Ghost, Dragon, Dark
+
+
+Tipo Grass:
+
+Fraquezas: Fire, Ice, Poison, Flying, Bug
+Resistências: Eletric, Grass, Ground
+Dano Normal: Normal, Fight, Psychic, Rock, Ghost, Dragon, Dark, Steel
+
+
+
+Tipo Ice:
+
+Fraquezas: Fire, Fight, Rock, Steel
+Resistências: Ice
+Dano Normal: Normal, Water, Eletric, Grass, Poison, Ground, Flying, Psychic, Bug, Ghost, Dragon, Dark
+
+
+Tipo Fight:
+
+Fraquezas: Flying, Psychic
+Resistências: Bug, Rock, Dark
+Dano Normal: Normal, Fire, Water, Eletric, Grass, Ice, Fight, Poison, Ground, Ghost, Dragon, Steel
+
+
+Tipo Poison:
+
+Fraquezas: Ground, Psychic
+Resistências: Grass, Fight, Poison, Bug
+Dano Normal: Normal, Fire, Water, Eletric, Ice, Flying, Rock, Ghost, Dragon, Dark, Steel
+
+
+Tipo Ground:
+
+Fraquezas: Water, Grass, Ice
+Resistências: Eletric (Imunidade), Poison, Rock
+Dano Normal: Normal, Fire, Fight, Ground, Flying, Psychic, Bug, Ghost, Dragon, Dark, Steel
+
+
+Tipo Flying:
+
+Fraquezas: Eletric, Ice, Rock
+Resistências: Ground (Imunidade), Bug, Fighting, Grass
+Dano Normal: Dark, Dragon, Fire, Flying, Ghost, Normal, Poison, Psychic, Steel, Water
+
+
+Tipo Psychic:
+
+Fraquezas: Bug, Ghost, Dark
+Resistências: Fight, Psychic
+Dano Normal: Normal, Fire, Water, Eletric, Grass, Ice, Poison, Ground, Flying, Rock, Dragon, Steel
+
+
+Tipo Bug:
+
+Fraquezas: Fire, Flying, Rock
+Resistências: Grass, Fight, Ground
+Dano Normal: Normal, Water, Eletric, Ice, Poison, Psychic, Bug, Ghost, Dragon, Dark, Steel
+
+
+Tipo Rock:
+
+Fraquezas: Water, Grass, Fight, Ground, Steel
+Resistências: Normal, Fire, Poison, Flying
+Dano Normal: Eletric, Ice, Psychic, Bug, Rock, Ghost, Dragon, Dark
+
+
+Tipo Ghost:
+
+Fraquezas: Ghost, Dark
+Resistências: Normal (Imunidade), Fight (Imunidade), poison, Bug,
+Dano Normal: Fire, Water, Eletric, Grass, Ice, Ground, Flying, Psychic, Rock, Dragon, Steel
+
+
+Tipo Dragon:
+
+Fraquezas: Ice, Dragon
+Resistências: Fire, Water, Eletric, Grass
+Dano Normal: Normal, Fight, Poison, Ground, Flying, Psychic, Bug, Rock, Ghost, Dark, Steel
+
+
+Tipo Dark:
+
+Fraquezas: Fight, Bug
+Resistências: Psychic (Imunidade), Ghost, Dark
+Dano Normal: Normal, Fire, Water, Eletric, Grass, Ice, Poison, Ground, Flying, Rock, Dragon, Steel
+
+
+Tipo Steel:
+
+Fraquezas: Fire, Fight, Ground
+Resistências: Normal, Grass, Ice, Poison (imunidade), Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Steel
+Dano Normal: Water, Eletric
+
+
+Curiosidades:
+
+O que tem mais Fraquezas são os tipos: Rock e Grass
+O que tem mais Resistências é o tipo: Steel
+O que tem mais dano normal é o tipo: Normal
+
+Se o Pokémon tiver 2 tipos, as fraquezas se agrupam assim como os outros fatores
+
+Exemplo: Meu Pokémon é tipo Rock/Steel
+
+Então:
+
+Fraquezas: Fight (4 Vezes), Ground (4 Vezes), Water
+Resistências: Normal (quase imunidade), Ice, Poison (imunidade), Flying (quase imunidade), Psychic, Bug, Rock, Ghost, Dragon, Dark
+Dano Normal: Fire, Eletric, Grass, Steel
