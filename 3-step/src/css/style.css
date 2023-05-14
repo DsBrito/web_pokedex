@@ -1,0 +1,141 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background: #EFEFBB;
+    background: linear-gradient(to right, rgba(246, 244, 243, 0.559), rgb(170, 24, 255));
+    /* Substitua './src/images/background/poke-card.png' pelo caminho correto da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+body.black-mode {
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+header #change-light {
+    background: none;
+    border: none;
+}
+
+header .logo,
+header .botton-image {
+    width: 30px;
+}
+
+header .logo.logo:hover,
+header .botton-image:hover,
+main .poke-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+main {
+    background: #EFEFBB;
+    background: linear-gradient(to right, rgba(246, 244, 243, 0.559), rgb(170, 24, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px;
+}
+
+main .poke-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .poke-card {
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .poke-card:hover {
+    background-color: #5d26e9;
+}
+
+main .poke-card .informations {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+
+}
+
+main .poke-card .informations span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+
+}
+
+main .poke-card .gif {
+    width: 135px;
+    height: 135px;
+}
+
+main .poke-card .types {
+    display: flex;
+    gap: 15px;
+
+}
+
+main .poke-card .type {
+    padding: 8px;
+    border-radius: 10px;
+
+}
+
+main .description {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.Gress {
+    background-color: #7ac74c;
+
+}
+
+.Poison {
+    background-color: #df67ddfb;
+}
+
+.Fire {
+    background-color: #ee8130;
+}
+
+.Water {
+    background-color: #6390f0;
+}
+
+.Poison {
+    background-color: #df67ddfb;
+}
+
+.Insect {
+    background-color: #a6b91a;
+}
+
+
+
+.black-mode .poke-card {
+    background-color: #a8a8a8;
+}
