@@ -1,0 +1,46 @@
+1) seletor/regra para todo arquivo html 
+    *{}
+
+2) espaçamento externo:
+    margin: 0;  ~retirar
+
+3)espaçamento interno
+    padding:  0; ~retirar
+
+4)largura/altura
+    box-sizing: border-box
+
+5) estilos
+ul{
+    list-style (): objeto
+}
+
+6) largura maxima das coisas no site
+body{
+    max-width: 1280px
+}
+
+7) centralizar as coisas no site
+body{
+    margin: 0 auto
+}
+
+8) cor de background do site
+body{
+    background-color: #color
+}
+9) cor de background com gradiente
+background: #EFEFBB;
+    background: linear-gradient(to right, rgba(235, 8, 87, 0.559), rgba(24, 255, 24, 0.402));
+
+10) imagem de background
+    width: 300px;
+    height: 300px;
+    background-image: url(https://i.pinimg.com/564x/47/b9/14/47b91495e80426f8b2d419a23c80da59.jpg);
+    border: solid 2px;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    background-size: 150px;
+ou
+    background-image: url(https://images8.alphacoders.com/395/395682.png);
+    background-image: url(https://images8.alphacoders.com/723/723930.png);    
